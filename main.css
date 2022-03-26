@@ -19,6 +19,10 @@ ul span {
     color: aliceblue;
 }
 
+p {
+    z-index: 5;
+}
+
 .meme {
     width: 25%;
 }
@@ -93,6 +97,7 @@ ul span {
 }
 
 .blood {
+    z-index: 0;
     position: fixed;
     top: 0;
     right: 0;
@@ -107,6 +112,10 @@ ul span {
     text-align: center;
     color: aliceblue;
     margin-top: 100px;
+}
+
+.main-page {
+    z-index: 10;
 }
 
 .main-page-go-up {
