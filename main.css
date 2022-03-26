@@ -93,7 +93,13 @@ ul span {
 }
 
 .blood {
-    border: 1px red solid;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 80%;
+    width: 20%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .main-pages {
